@@ -30,3 +30,6 @@ $('.what3').click(function () {
     $('.what3').hide()
 
 })
+
+
+prompt('hello')
