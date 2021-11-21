@@ -21,6 +21,12 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 }
+#contact {
+  background: url("../images/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
 #what-details1 , #what-details2 , #what-details3  {
   display: none;
 }
