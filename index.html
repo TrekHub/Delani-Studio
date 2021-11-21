@@ -222,29 +222,44 @@
             <h1 class="fs-1 text-center fw-bolder text-white">CONTACT US</h1>
         </div>
 
-        <div class="row g-3 w-75 mx-auto text-white">
-            <div class="col">
-                <label for="floatingInput">Name</label>
-                <input type="text" class="form-control bg-transparent border-3 text-white" placeholder="Name .."
-                    aria-label="First name">
-            </div>
-            <div class="col">
-                <label for="floatingInput">Email address</label>
-                <input type="email" class="form-control bg-transparent border-3 text-white" placeholder="Email"
-                    aria-label="Last name">
-            </div>
-            <div class="">
-                <label for="floatingInput">Message</label>
-                <textarea name="" id="" cols="30" rows="10" class="form-control bg-transparent border-3 text-white"
-                    placeholder="Enter your Message">
+        <div class="row g-3 w-100 mx-auto text-white">
+            <form style="width: 80% !important;"
+                action="https://gmail.us20.list-manage.com/subscribe/post?u=e35c3fa3699d33967cefc3eda&amp;id=d865768662"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+                novalidate class="form py-3  mx-auto  validate row ">
+                <div class="col">
+                    <label for="floatingInput">Name</label>
+                    <input type="text" class="form-control required bg-transparent border-3 text-white"
+                        placeholder="Name .." name="USERNAME" id="mce-USERNAME" aria-label="First name">
+                </div>
+                <div class="col">
+                    <label for="floatingInput">Email address</label>
+                    <input type="email" class="form-control required bg-transparent border-3 text-white"
+                        placeholder="Email" name="EMAIL" id="mce-EMAIL" aria-label="Last name">
+                </div>
+                <div class="">
+                    <label for="floatingInput">Message</label>
+                    <textarea id="mce-MESSAGE" id="" cols="30" rows="10"
+                        class="form-control required bg-transparent border-3 text-white" name="MESSAGE"
+                        placeholder="Enter your Message">
 
-                </textarea>
-            </div>
+                    </textarea>
+                </div>
 
-            <div class=" w-50 mx-auto text-white ">
-                <button type="submit"
-                    class="btn  btn-outline-white border-3 mx-auto border-white btn-block text-white ">Submit</button>
-            </div>
+                <div class=" w-50 mx-auto text-white mt-3 ">
+                    <button type="submit" name="subscribe" id="mc-embedded-subscribe"
+                        class="btn  btn-outline-white border-3 mx-auto border-white btn-block text-white ">Submit</button>
+                </div>
+
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_e35c3fa3699d33967cefc3eda_d865768662" tabindex="-1" value=""></div>
+
+            </form>
+
         </div>
     </section>
 
@@ -275,7 +290,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[1] = 'USERNAME';
+            ftypes[1] = 'text';
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[2] = 'MESSAGE';
+            ftypes[2] = 'text';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
     <script src="/js/script.js"></script>
 </body>
 
 </html>
+
