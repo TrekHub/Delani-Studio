@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  font-family: 'Nunito', sans-serif !important; 
 }
 
 #banner {
+    height: 100%;
   background: url("../images/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
