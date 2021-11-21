@@ -32,4 +32,3 @@ $('.what3').click(function () {
 })
 
 
-prompt('hello')
